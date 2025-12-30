@@ -98,10 +98,42 @@ a {
 .links:active .front{
   transform: translateY(-2px);
 }
+.input-group {
+  margin: 16px 0;
+}
+
+.input-group input {
+  width: 100%;
+  max-width: 320px;
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input-group input:focus {
+  border-color: #6c63ff; /* matches button accent */
+}
 
 .input-box{
   margin-top: 27px;
 }
+
+.input-label {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.action-group {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 .field{
   border: none;
   border-bottom: 1px solid #0ca8e6;
